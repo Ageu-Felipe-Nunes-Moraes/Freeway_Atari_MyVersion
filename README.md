@@ -1,6 +1,6 @@
 # Chicken Crossing
 
-Recriei inspirado no clássico jogo da galinha da Atari uma versão única para dois jogadores, onde o objetivo principal é atravessar para o outro lado da rua o máximo de vezes possível dentro de 1 minuto enquanto carros passam em velocidades aleatórias em 6 vias, 3 indo para a direita e 3 para a esquerda. Ao final da contagem, vence quem tiver a maior pontuação.
+Recriei, inspirado no clássico jogo da galinha da Atari, uma versão única para dois jogadores, onde o objetivo principal é atravessar para o outro lado da rua o máximo de vezes possível dentro de 1 minuto enquanto carros passam em velocidades aleatórias em 6 vias, 3 indo para a direita e 3 para a esquerda. Ao final da contagem, vence quem tiver a maior pontuação.
 
 ## Funcionalidades
 
