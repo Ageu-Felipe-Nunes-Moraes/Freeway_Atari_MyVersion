@@ -10,6 +10,11 @@ Recriei, inspirado no clássico jogo da galinha da Atari, uma versão única par
 - **Contagem de Pontuação:** Cada vez que um jogador atravessa a rua com sucesso, ele ganha pontos. A pontuação final é determinada pela quantidade de vezes que cada jogador atravessou a rua.
 - **Gráficos Simples:** Usando a biblioteca Pygame, o jogo apresenta gráficos simples, mas eficazes.
 
+## Requisitos de Instalação
+
+- Python 3.x
+- Pygame
+
 ## Bibliotecas Necessárias
 
 - `pygame`: Módulo para desenvolvimento de jogos.
