@@ -1,8 +1,7 @@
-# Módulo para desenvolver jogos
-import pygame
-# Módulo para aleatóriedade
-import random
-import os
+
+import pygame # Módulo para desenvolver jogos
+import random # Módulo para aleatóriedade
+import os # Módulo para operações do sistema
 
 
 #Funções do programa
@@ -82,9 +81,7 @@ caminho_relativo_galinha_esquerda = caminho_arquivo("galinhaJogoViradaEsquerda.p
 
 # Efeito sonoro
 efeito_sonoro_colisao = pygame.mixer.Sound(caminho_relativo_efeito_colisao)
-# Efeito sonoro
 efeito_sonoro_pontuacao = pygame.mixer.Sound(caminho_relativo_efeito_pontuacao)
-# Efeito sonoro
 pygame.mixer.music.load(caminho_relativo_som_fundo)
 
 # Dimensões de tela de jogo
@@ -110,7 +107,6 @@ imagem_fundo = dimensiona_imagem(imagem, (largura, altura))
 carro_pista1 = upload_imagem(caminho_relativo_carro_esquerda)
 carro_tamanho1 = dimensiona_imagem(carro_pista1, (56.6, 33.1))
 
-# Trazendo as imagens dos carros
 carro_pista2 = upload_imagem(caminho_relativo_carro_direita)
 carro_tamanho2 = dimensiona_imagem(carro_pista2, (56.6, 33.1))
 
@@ -141,7 +137,7 @@ outra_galinha_tamanho = dimensiona_imagem(galinha, (35.2, 42.52))
 # Posicionando a galinha
 outra_galinha_x = 940
 outra_galinha_y = 450
-# Variáevl que determina a velocidade de um objeto
+# Variáevel que determina a velocidade de um objeto
 velocidade_outra_galinha = 5
 
 # Valores variáveis para definir a velocidade dos carros posteriormente
@@ -155,9 +151,8 @@ velocidade_carro4 = random.choice(valores)
 velocidade_carro5 = random.choice(valores)
 velocidade_carro6 = random.choice(valores)
 
-# Contador que posteriormente contará a pontuação galinha 1
+# Contadores que posteriormente contarão as pontuações das galinhas 1 e 2
 contador_galinha = 0
-# Contador que posteriormente contará a pontuação galinha 2
 contador_outra_galinha = 0
 
 # Contador de tempo
