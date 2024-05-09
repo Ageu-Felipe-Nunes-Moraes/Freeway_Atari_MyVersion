@@ -51,7 +51,7 @@ pygame.init()
 # Tela inicial do jogo
 tela_inicial = pygame.display.set_mode((1300, 700))
 tela_inicial_aberta = True
-caminho_relativo_estrada_desfocada = caminho_arquivo('estradaJogoDesfocada.png')
+caminho_relativo_estrada_desfocada = caminho_arquivo('Recursos_Jogo/estradaJogoDesfocada.png')
 imagem_estrada_desfocada = upload_imagem(caminho_relativo_estrada_desfocada)
 imagem_inicial = dimensiona_imagem(imagem_estrada_desfocada, (1300, 700))
 
@@ -70,14 +70,14 @@ instrucao4 = mensagem_tela_inicial(mensagem_tutorial4)
 # VARIÁVEIS DO JOGO
 
 # Caminho relativo dos arquivos
-caminho_relativo_efeito_colisao = caminho_arquivo('oh-my-god-meme.mp3')
-caminho_relativo_efeito_pontuacao = caminho_arquivo('cavalo-rodrigo-faro.mp3')
-caminho_relativo_som_fundo = caminho_arquivo('que-isso-meu-filho-calma-vai-dar-namoro.mp3')
-caminho_relativo_imagem_fundo = caminho_arquivo("estradaJogo.jpeg")
-caminho_relativo_carro_esquerda = caminho_arquivo("carroJogoEsquerda.png")
-caminho_relativo_carro_direita = caminho_arquivo("carroJogoDireita.png")
-caminho_relativo_galinha_direita = caminho_arquivo("galinhaJogoViradaDireita.png")
-caminho_relativo_galinha_esquerda = caminho_arquivo("galinhaJogoViradaEsquerda.png")
+caminho_relativo_efeito_colisao = caminho_arquivo('Recursos_Jogo/oh-my-god-meme.mp3')
+caminho_relativo_efeito_pontuacao = caminho_arquivo('Recursos_Jogo/cavalo-rodrigo-faro.mp3')
+caminho_relativo_som_fundo = caminho_arquivo('Recursos_Jogo/que-isso-meu-filho-calma-vai-dar-namoro.mp3')
+caminho_relativo_imagem_fundo = caminho_arquivo("Recursos_Jogo/estradaJogo.jpeg")
+caminho_relativo_carro_esquerda = caminho_arquivo("Recursos_Jogo/carroJogoEsquerda.png")
+caminho_relativo_carro_direita = caminho_arquivo("Recursos_Jogo/carroJogoDireita.png")
+caminho_relativo_galinha_direita = caminho_arquivo("Recursos_Jogo/galinhaJogoViradaDireita.png")
+caminho_relativo_galinha_esquerda = caminho_arquivo("Recursos_Jogo/galinhaJogoViradaEsquerda.png")
 
 # Efeito sonoro
 efeito_sonoro_colisao = pygame.mixer.Sound(caminho_relativo_efeito_colisao)
