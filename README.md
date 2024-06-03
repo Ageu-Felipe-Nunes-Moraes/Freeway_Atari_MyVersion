@@ -1,51 +1,51 @@
 # Chicken Crossing
 
-Recriei, inspirado no clássico jogo da galinha da Atari, uma versão única para dois jogadores, onde o objetivo principal é atravessar para o outro lado da rua o máximo de vezes possível dentro de 1 minuto enquanto carros passam em velocidades aleatórias em 6 vias, 3 indo para a direita e 3 para a esquerda. Ao final da contagem, vence quem tiver a maior pontuação.
+Inspired by the classic Atari chicken game, I recreated a unique version for two players. The main objective is to cross to the other side of the street as many times as possible within 1 minute while cars pass at random speeds on 6 lanes, 3 going to the right and 3 to the left. At the end of the countdown, the player with the highest score wins.
 
-## Funcionalidades
+## Features
 
-- **Jogabilidade de Dois Jogadores:** Este jogo é projetado para dois jogadores competirem entre si para atravessar a rua o máximo de vezes possível.
-- **Tráfego de Carros:** Carros passam em 6 vias, 3 indo para a direita e 3 para a esquerda, em velocidades aleatórias.
-- **Limite de Tempo:** O jogo dura 1 minuto. Após esse tempo, a contagem é encerrada e a pontuação final é calculada.
-- **Contagem de Pontuação:** Cada vez que um jogador atravessa a rua com sucesso, ele ganha pontos. A pontuação final é determinada pela quantidade de vezes que cada jogador atravessou a rua.
-- **Gráficos Simples:** Usando a biblioteca Pygame, o jogo apresenta gráficos simples, mas eficazes.
+- **Two-Player Gameplay:** This game is designed for two players to compete against each other to cross the street as many times as possible.
+- **Car Traffic:** Cars pass on 6 lanes, 3 going to the right and 3 to the left, at random speeds.
+- **Time Limit:** The game lasts 1 minute. After this time, the countdown ends and the final score is calculated.
+- **Score Counting:** Each time a player successfully crosses the street, they earn points. The final score is determined by the number of times each player crossed the street.
+- **Simple Graphics:** Using the Pygame library, the game features simple yet effective graphics.
 
-## Requisitos de Instalação
+## Installation Requirements
 
 - Python 3.x
 - Pygame
 
-## Bibliotecas Necessárias
+## Required Libraries
 
-- `pygame`: Módulo para desenvolvimento de jogos.
-- `random`: Módulo para geração de números aleatórios.
-- `os`: Módulo para operações de sistema, pode ser utilizado para manipulação de diretórios e arquivos.
+- `pygame`: Module for game development.
+- `random`: Module for generating random numbers.
+- `os`: Module for system operations, can be used for directory and file manipulation.
 
-## Como Jogar
+## How to Play
 
-1. Certifique-se de ter Python e Pygame instalados em seu sistema.
-2. Clone ou baixe o repositório deste jogo.
-3. Execute o arquivo principal do jogo.
-4. Você será apresentado à tela inicial do jogo, onde verá uma breve descrição.
-5. O jogo começará com os jogadores posicionados do mesmo lado da rua.
-6. Use as teclas de setas para movimentar o jogador 1 e as teclas W, A, S, D para movimentar o jogador 2.
-7. Atravesse a rua evitando os carros em movimento.
-8. Cada vez que um jogador atravessa a rua com sucesso, sua pontuação aumenta.
-9. O jogo termina após 1 minuto. O jogador com a maior pontuação vence.
+1. Ensure that Python and Pygame are installed on your system.
+2. Clone or download the repository of this game.
+3. Run the main game file.
+4. You will be presented with the game's start screen, where you will see a brief description.
+5. The game will start with the players positioned on the same side of the street.
+6. Use the arrow keys to move player 1 and the W, A, S, D keys to move player 2.
+7. Cross the street avoiding the moving cars.
+8. Each time a player successfully crosses the street, their score increases.
+9. The game ends after 1 minute. The player with the highest score wins.
 
-## Como Contribuir
+## How to Contribute
 
-Se desejar contribuir para o desenvolvimento deste jogo, siga estas etapas:
+If you wish to contribute to the development of this game, follow these steps:
 
-1. Fork o repositório.
-2. Faça suas modificações e melhorias no código.
-3. Teste suas alterações para garantir que funcionem corretamente.
-4. Envie um pull request descrevendo as mudanças que você fez e suas razões para elas.
+1. Fork the repository.
+2. Make your modifications and improvements to the code.
+3. Test your changes to ensure they work correctly.
+4. Submit a pull request describing the changes you made and the reasons for them.
 
-## Autor
+## Author
 
-Este jogo foi recriado por Ageu Felipe Nunes Moraes para fins acadêmicos, como parte de um projeto inspirado no clássico jogo da galinha da Atari. Para dúvidas ou sugestões, entre em contato com [ageumoraes67@gmail.com].
+This game was recreated by Ageu Felipe Nunes Moraes for academic purposes, as part of a project inspired by the classic Atari chicken game. For questions or suggestions, contact [ageumoraes67@gmail.com](mailto:ageumoraes67@gmail.com).
 
-## Aviso Legal
+## Disclaimer
 
-Este é um projeto de software desenvolvido por um indivíduo e não tem afiliação com o jogo original da galinha do Atari ou seus criadores.
+This is a software project developed by an individual and is not affiliated with the original Atari chicken game or its creators.
